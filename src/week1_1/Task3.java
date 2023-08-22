@@ -20,4 +20,5 @@ public class Task3 {
         float numbers = first + second + third;
         System.out.println("The average of the numbers is " + (numbers / 3));
     }
+
 }
