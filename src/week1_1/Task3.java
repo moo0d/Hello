@@ -8,7 +8,6 @@ public class Task3 {
 
 
         System.out.println("Give the first number:");
-        // Muutin muuttujat first,second,third int -> doubleksi, jotta laskut voidaan laskea liukuluvuilla.
 
         int first = Integer.parseInt(scanner.nextLine());
 
