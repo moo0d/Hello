@@ -14,7 +14,7 @@ public class Task2 {
 
         double hypotenuusa = Math.sqrt(Math.pow(eka, 2) + Math.pow(toka, 2));
 
-        System.out.println("hypotenuusa " + hypotenuusa);
+        System.out.printf("hypotenuusa %.2f", hypotenuusa);
 
 
     }
