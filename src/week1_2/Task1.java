@@ -6,12 +6,12 @@ public class Task1 {
         Scanner reader = new Scanner(System.in);
 
 
-        System.out.println("Enter the number in Fahrenheit:");
+        System.out.println("Enter the number in Fahrenheit: ");
         double fahrenheit = Double.parseDouble(reader.nextLine());
 
         double celsius = ((fahrenheit - 32) * ((double) 5 / 9));
 
-        System.out.printf("%.1f celsius",celsius);
+        System.out.printf("%.1f celsius: ",celsius);
 
     }
 }
