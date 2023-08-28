@@ -9,8 +9,6 @@ public class week1_4 {
         int[] line = new int[NUMBERS];
         boolean found;
 
-
-        found = false;
         for (int i = 0; i < NUMBERS; i++) {
             do {
                 arvottu = (int) (Math.random() * TOTAL) + 1;
@@ -18,7 +16,7 @@ public class week1_4 {
                 for (int j = 0; j <= i - 1; j++){
                     if (line[j] == arvottu) {
                         found = true;
-                        //System.out.println("duplicate");
+                        System.out.println("duplicate" + line[j]);
 
                     }
                 }
