@@ -15,7 +15,7 @@ public class Task2 {
         decimal = Integer.parseInt(binary,2);
 
 
-        System.out.println(decimal);
+        System.out.println("Binääri desimaalina -> " + decimal);
 
 
 

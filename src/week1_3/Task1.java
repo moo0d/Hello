@@ -10,7 +10,7 @@ public class Task1 {
 
         double a, b, c, rootOne, rootTwo, discriminant;
 
-        System.out.println("Let's calculate a quadratic equation \nax^2 + bx + c = 0");
+        System.out.println("\nLet's calculate a quadratic equation \nax^2 + bx + c = 0");
         System.out.println("Insert a:");
         a = Double.parseDouble(reader.nextLine());
 
@@ -42,7 +42,6 @@ public class Task1 {
             System.out.println("First real root " + rootOne);
             System.out.println("Second real root " + rootTwo);
         }
-
     }
 }
 
