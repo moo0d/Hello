@@ -1,8 +1,8 @@
-package week3_2.Task2and3;
+package week3_2.Task2and3and4;
 
-public class ElectricCar extends AbstractVehicle implements ElectricVehicle {
+public class ElectricMotorcycle extends AbstractVehicle implements ElectricVehicle {
     private boolean isElectric;
-    public ElectricCar(String type, String fuel, String color, boolean isElectric) {
+    public ElectricMotorcycle(String type, String fuel, String color, boolean isElectric) {
         super(type, fuel, color);
         this.isElectric = isElectric;
     }
@@ -10,18 +10,18 @@ public class ElectricCar extends AbstractVehicle implements ElectricVehicle {
     @Override
     void honk() {
 
-        System.out.println(type + " Honk: tUUUUU...");
+        System.out.println(type + " Honk: TÖTÖT...");
     }
 
     @Override
     void engineSound() {
 
-        System.out.println(type + " Engine Sound: hhhhhhhhhhhhhhhhhh...");
+        System.out.println(type + " Engine Sound: hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhzzzzzzzz...");
     }
 
     @Override
     public void charge() {
-        System.out.println("Charging car: " + type);
+        System.out.println("Charging motorcycle: " + type);
     }
     @Override
     public void getElectricInfo(){
