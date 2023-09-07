@@ -21,6 +21,9 @@ public class BankAccount {
         if (balance > number) {
             balance = balance - number;
         }
+        else{
+            System.out.println("Cant withdraw more than you have.");
+        }
     }
     public static int getAccounts(){
         return accounts;
